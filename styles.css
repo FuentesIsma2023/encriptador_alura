@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+header{
+    height: 7vh;
+    width: 100vw;
+    background: rgb(2,0,36);
+    background: linear-gradient(318deg, rgba(2,0,36,1) 0%, rgba(10,56,113,1) 17%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    color: #f3f5fc;
+}
+header .logo{
+    height: 80%;
+    width: 30%;
+    
+    left: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+header .list{
+    color: #f3f5fc;
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.list a{
+    font-size: 25px;
+    font-style: normal;
+    text-decoration: none;
+    color: #f3f5fc;
+}
+main{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    justify-content: center;
+    justify-content: space-around;
+    background: #f3f5fc;
+}
+.text-area{
+    top: 10px;
+    display: flex;
+    position: relative;
+    width: 45vw;
+    height: 80%;
+    border: none;
+    border-radius: 24px;
+    box-shadow: #0a3871 0px 0px 25px 4px;
+}
+.informacion{
+    width: 45vw;
+    position: relative;
+    display: flex;
+    top: 15px;
+    font-size: 30px;
+    height: 30px;
+    justify-content: center;
+}
+.botones{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    height: 80px;
+    top: 20px;
+}
+.btn-encriptar{
+    height: 50px;
+    width: 200px;
+    border-radius: 22px;
+    font-size: 15px;
+    margin-right: 10px;
+    background: #0a3871;
+    color: #f3f5fc;
+}
+.btn-desencriptar{
+    height: 50px;
+    width: 200px;
+    border-radius: 22px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.right{
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+.mensaje{
+    top: 10px;
+    display: flex;
+    position: relative;
+    width: 40vw;
+    height: 80%;
+    border: none;
+    float: right;
+    border-radius: 24px;
+    box-shadow: #0a3871 0px 0px 25px 4px;
+}
+.btn-copiar{
+    height: 80px;
+    display: flex;
+    position: absolute;
+    width: 40vw;
+    bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.copiar{
+    height: 50px;
+    width: 200px;
+    border-radius: 22px;
+    font-size: 15px;
+}
+footer{
+    width: 100vw;
+    height: 5vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(318deg, rgba(2,0,36,1) 0%, rgba(10,56,113,1) 17%, rgba(0,212,255,1) 100%);
+    color: #f3f5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+}
+footer .pie{
+    text-align: center;
+}
