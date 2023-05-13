@@ -183,7 +183,7 @@ footer .pie{
     main{
         display: flex;
         position: relative;
-        width: 80%;
+        width: 100%;
     }
     .left{
         position: relative;
