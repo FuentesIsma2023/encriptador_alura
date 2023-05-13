@@ -36,7 +36,6 @@ function btnDesencriptar(){
     textArea.value= "";    
 }
 
-
 function desencriptar(stringDesencriptada){
     let matrizCodigo = [
         ["e", "enter"], 

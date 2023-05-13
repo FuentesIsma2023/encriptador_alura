@@ -53,10 +53,7 @@ main{
     height: 80%;
     border: none;
     background: #f3f5fc;
-    /* border-radius: 24px;
-    box-shadow: #0a3871 0px 0px 25px 4px; */
 }
-/* recien agregados */
 .text-area::placeholder{
     text-align: center;
     color: #0a3871;
@@ -68,7 +65,6 @@ main{
     border: none;
     outline: none;
 }
-/* recien agregados */
 .informacion{
     width: 45vw;
     position: relative;
@@ -162,4 +158,109 @@ footer{
 }
 footer .pie{
     text-align: center;
+}
+@media(max-width:57.5em){
+    header{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid green;
+        width: 100%;
+        height: 10%;
+    }
+    header img{
+        width: 50px;
+        height: 20px;
+    }
+    header .list{
+        text-transform: lowercase;
+        width: 100%;
+        position: relative;
+        margin: 0px 2px 0px 2px;
+    }
+    li{
+        font-size: 1px;
+    }
+    main{
+        display: flex;
+        position: relative;
+        width: 80%;
+    }
+    .left{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: 80%;
+    }
+    .text-area{
+        width: 100%;
+        height: 40%;
+        left: 0%;
+        top: 10%;
+    }
+    .text-area::placeholder{
+        height: 80px;
+        width: 45%;
+        font-size: 20px;
+    }
+    .informacion{
+        width: 100%;
+        height: 10%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        top: 60%;
+        font-size: 5%;
+        position: absolute;   
+    }
+    .informacion h6{
+        font-size: 10px;
+        display: flex;
+        position: absolute;
+        text-align: center;
+    }
+    .botones{
+        width: 100%;
+        height: 20%;
+        font-size: 50px;
+        display: flex;
+        position: absolute;
+        top: 450px;
+    }
+    .btn-encriptar, .btn-desencriptar{
+        width: 40%;
+        height: 30%;
+        border-radius: 16px;
+        font-size: 10px;
+    }
+    .btn-encriptar:hover, .btn-desencriptar:hover{
+        margin: 0.3%;
+        width: 47.5%;
+        padding: 1.8%;
+    }
+    .right{
+        display: flex;
+        position: relative;
+        width: 48%;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+    }
+    .mensaje{
+        width: 90%;
+        height: 90%;
+        position: absolute;
+    }
+    .btn-copiar{
+        width: 60%;
+        height: 20%;
+        position: absolute;
+    }
+    .copiar{
+        height: 30%;
+    }
+    footer{
+        height: 10%;
+        width: 100%;
+        border: 1px solid yellow;
+    }
 }
