@@ -27,7 +27,7 @@ function encriptar(stringEncriptada){
         if (stringEncriptada.includes(matrizCodigo[i][0])){stringEncriptada = stringEncriptada.replaceAll(matrizCodigo[i][0], matrizCodigo[i][1])
         }
     }
-    return stringEncriptada
+    return stringEncriptada;
 }
 
 function btnDesencriptar(){
@@ -37,14 +37,8 @@ function btnDesencriptar(){
 }
 
 function desencriptar(stringDesencriptada){
-    let matrizCodigo = [
-        ["e", "enter"], 
-        ["i", "imes"], 
-        ["o", "ober"],
-        ["a", "ai"], 
-        ["u", "ufat"]];
+    let matrizCodigo = [["e", "enter"],["i", "imes"],["o", "ober"],["a", "ai"],["u", "ufat"]];
         stringDesencriptada = stringDesencriptada.toLowerCase()
-
     for(let i = 0; i < matrizCodigo.length; i++)
     {
         if (stringDesencriptada.includes(matrizCodigo[i][1]))

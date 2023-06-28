@@ -11,76 +11,46 @@
     <title>Contacto</title>
 </head>
 <body>
-    <header>
-        <img class=".logo" src="banner/logo.png" alt="logo de alura">
+    <header class="cabecera">
+        <img class="logo" src="banner/logo.png" alt="logo de alura">
         <ul class="list">
-            <li><a href="inicio.html">Inicio</a></li>
-            <li><a href="index.html">Encriptador</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <li class="list__item"><a class="list__link" href="inicio.html">Inicio</a></li>
+            <li class="list__item"><a class="list__link" href="index.html">Encriptador</a></li>
+            <li class="list__item"><a class="list__link" href="contacto.html">Contacto</a></li>
         </ul>
     </header>
-
     <main>
-        <div class="left">
-            <div class="thanks">
-                <h3>Agradecimientos</h3>
 
-                <ul id="list">
-                    <li><strong>Youtuber</strong></li>
-                    <p>Por la aportacion en la ubicacion de los elementos</p>
-                
-                
-                    <li><strong>Youtuber</strong></li>
-                    <p>Por la aportacion en la ubicacion de los elementos</p>
-                
-                
-                    <li><strong>Youtuber</strong></li>
-                    <p>Por la aportacion en la ubicacion de los elementos</p>
-                </ul>
-
-            </div>
-            <div class="kwnoledgements">
-                
-                <h3>Reconocimiento</h3>
-
-                <ul id="list">
-                    <li><strong>Youtuber</strong></li>
-                    <p>Por la aportacion en la ubicacion de los elementos</p>
-                
-                
-                    <li><strong>Youtuber</strong></li>
-                    <p>Por la aportacion en la ubicacion de los elementos</p>
-                
-                
-                    <li><strong>Youtuber</strong></li>
-                    <p>Por la aportacion en la ubicacion de los elementos</p>
-                </ul>
-                
-            </div>
-            <div class="credits">
-                <h3>Creditos</h3>
-                <ul id="list">
-                    <li><strong>Youtuber</strong></li>
-                    <p>Por la aportacion en la ubicacion de los elementos</p>
-                
-                
-                    <li><strong>Youtuber</strong></li>
-                    <p>Por la aportacion en la ubicacion de los elementos</p>
-                
-                
-                    <li><strong>Youtuber</strong></li>
-                    <p>Por la aportacion en la ubicacion de los elementos</p>
-                </ul>
-            </div>
+        <div class="box__left">
+            <p class="form__text">Llena el siguiente formulario y de manera inmediata me pondre en contacto contigo</p>
+            <form class="box__form" action="Insert">
+                <label for="name">name:</label>
+                <input type="text" id="name" required><br>
+                <label for="phone">phone number:</label>
+                <input type="text" required id="phone"><br>
+                <label for="email">email:</label>
+                <input type="email" id="email" required><br>
+                <label for="message">message:</label>
+                <textarea  id="message" cols="30" rows="10" placeholder="thanks for your message"></textarea><br>
+                <button class="form__button" type="submit">Sent message</button>
+            </form>
         </div>
 
-        <div class="right">
-            <img class="photo" src="banner/photo.jpeg" alt="FOTO DE PERFIL">
-            <p id="photo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsa eos facere aliquid non numquam nostrum ex dolores id quo veritatis cupiditate qui, quia facilis neque voluptatem rem sit amet.</p>
+        <div class="box__right">
+            <img class="profile__photo" src="banner/PHOTO.jpg" alt="foto de perfil" width="450px">
+            <p class="name">Ismael Najera Fuentes</p>
+            <p class="name">36 years old</p>
+            <p class="name">Frontend Development Student</p>
         </div>
     </main>
-    <footer>
-        <p class="pie">Copyright &copy; INajera</p>
+    <footer class="pie__pagina">
+        <p class="pie">Copyright &copy; Isma2023</p>
+
+        <nav class="social__media">
+            <a href=""><img width="60px" src="banner/linkedin.png" alt="icono de red social"></a>
+            <a href=""><img width="60px" src="banner/github.png" alt="icono de red social"></a>
+            <a href=""><img width="60px" src="banner/instagram.png" alt="icono de red social"></a>
+        </nav>
     </footer>
 </body>
 </html>
